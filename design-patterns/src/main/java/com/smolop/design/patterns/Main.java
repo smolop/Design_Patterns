@@ -1,9 +1,10 @@
 package com.smolop.design.patterns;
 
-import com.smolop.design.patterns.factory.main.FactoryMain;
+import com.smolop.design.patterns.strategy.main.StrategyPatternMain;
 
 public class Main {
     public static void main(String[] args) {
-        FactoryMain.execute();
+//        FactoryMain.execute();
+        StrategyPatternMain.execute();
     }
 }
