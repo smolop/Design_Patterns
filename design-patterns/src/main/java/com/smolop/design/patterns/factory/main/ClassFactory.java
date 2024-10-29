@@ -16,7 +16,6 @@ public class ClassFactory {
     }
 
     public static Class getConcreteClass(ClassType classType) {
-
         if(ClassType.CLASS_A.equals(classType))
             return new ClassAFactory().create();
         else if (ClassType.CLASS_B.equals(classType))
