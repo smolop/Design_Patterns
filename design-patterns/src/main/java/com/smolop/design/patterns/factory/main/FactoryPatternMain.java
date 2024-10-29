@@ -2,9 +2,9 @@ package com.smolop.design.patterns.factory.main;
 
 import com.smolop.design.patterns.factory.interfaces.Class;
 
-public class FactoryMain {
+public class FactoryPatternMain {
 
-    private FactoryMain(){}
+    private FactoryPatternMain(){}
 
     public static void execute(){
         System.out.println("Start factory pattern.");
