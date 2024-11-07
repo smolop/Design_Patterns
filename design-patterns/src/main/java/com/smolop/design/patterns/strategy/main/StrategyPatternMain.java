@@ -1,6 +1,5 @@
 package com.smolop.design.patterns.strategy.main;
 
-import com.smolop.design.patterns.strategy.main.Context;
 import com.smolop.design.patterns.strategy.implementation.StrategyAImpl;
 import com.smolop.design.patterns.strategy.implementation.StrategyBImpl;
 
@@ -9,7 +8,8 @@ public class StrategyPatternMain {
     private StrategyPatternMain(){}
 
     public static void execute(){
-        System.out.println("Start strategy pattern.");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("[Start strategy pattern]");
 
         Context context = new Context(new StrategyAImpl());
 
@@ -20,7 +20,8 @@ public class StrategyPatternMain {
         System.out.println("Strategy B");
         context.executeStrategy();
 
-        System.out.println("Strategy pattern finished.");
+        System.out.println("[Strategy pattern finished]");
+        System.out.println("-----------------------------------------------------------------------------------------");
     }
 
 }

@@ -7,7 +7,8 @@ public class FactoryPatternMain {
     private FactoryPatternMain(){}
 
     public static void execute(){
-        System.out.println("Start factory pattern.");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("[Start factory pattern]");
 
         System.out.println("Class A Factory");
         Class classA = ClassFactory.getConcreteClass(ClassFactory.ClassType.CLASS_A);
@@ -24,7 +25,8 @@ public class FactoryPatternMain {
         classDefault.methodA();
         classDefault.methodB();
 
-        System.out.println("Factory pattern finished.");
+        System.out.println("[Factory pattern finished]");
+        System.out.println("-----------------------------------------------------------------------------------------");
     }
 
 }

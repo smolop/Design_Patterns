@@ -6,7 +6,8 @@ public class SingletonPatternMain {
     }
 
     public static void execute() {
-        System.out.println("Start singleton pattern.");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("[Start singleton pattern]");
 
         Singleton singletonOne = Singleton.getInstance();
         try {
@@ -28,7 +29,8 @@ public class SingletonPatternMain {
 
         System.out.printf("singletonOne.equals(singletonTwo)? = %s%n", singletonOne.equals(singletonOne));
 
-        System.out.println("Singleton pattern finished.");
+        System.out.println("[Singleton pattern finished]");
+        System.out.println("-----------------------------------------------------------------------------------------");
     }
 
 }
